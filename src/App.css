@@ -23,10 +23,16 @@
 
 .container {
   background-color: aqua;
-  height: 4rem;
+  height: 100%;
   width: 100%;
-  margin: .5rem 2rem;
+  margin: .8rem 2rem;
+  padding: .8rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
